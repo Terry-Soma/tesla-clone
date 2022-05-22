@@ -16,14 +16,14 @@ export default function Header() {
       <Menu>
         {cars &&
           cars.map((car, index) => (
-            <a key={index} href="#">
+            <a key={index} href="/aduu">
               {car}
             </a>
           ))}
       </Menu>
       <RightMenu>
-        <a href="#">Shop</a>
-        <a href="#">Tesla Account</a>
+        <a href="/Helo">Shop</a>
+        <a href="/Hello">Tesla Account</a>
         <CustomMenu onClick={() => setBurgerState(true)} />
       </RightMenu>
       <BurgerNav show={burgerState}>
@@ -33,7 +33,7 @@ export default function Header() {
         {cars &&
           cars.map((car, index) => (
             <li key={index}>
-              <a href="#">{car}</a>
+              <a href="addd">{car}</a>
             </li>
           ))}
       </BurgerNav>
