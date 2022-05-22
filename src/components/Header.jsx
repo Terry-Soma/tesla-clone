@@ -10,7 +10,7 @@ export default function Header() {
   console.log(cars);
   return (
     <Container>
-      <a href="#">
+      <a href="/index">
         <img src="/images/logo.svg" alt="logo" />
       </a>
       <Menu>
